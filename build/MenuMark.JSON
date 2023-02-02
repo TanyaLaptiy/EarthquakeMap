@@ -1,0 +1,14 @@
+
+{"type":"FeatureCollection","features":[
+{"type":"Feature","properties":{"name":"Hide/Show", "description":" cities", "coastal" : "false"},"geometry":{"type":"Point","coordinates":[-15, 83]}},
+{"type":"Feature","properties":{"name":" Hide/Show", "description":"earthquakes", "coastal" : "true"},"geometry":{"type":"Point","coordinates":[-2, 83]}},
+{"type":"Feature","properties":{"name":"Hide/Show", "description":" airports",  "coastal" : "false"},"geometry":{"type":"Point","coordinates":[12.8, 83]}},
+{"type":"Feature","properties":{"name":" Select", "description":"country",  "coastal" : "false"},"geometry":{"type":"Point","coordinates":[25.9, 83]}},
+{"type":"Feature","properties":{"name":"Hide/Show", "description":" legend",  "coastal" : "false"},"geometry":{"type":"Point","coordinates":[35.4, 83]}},
+{"type":"Feature","properties":{"name":" Hide/Show", "description":"general info", "coastal" : "false"},"geometry":{"type":"Point","coordinates":[48.4, 83]}},
+
+{"type":"Feature","properties":{"name":" Build", "description":"a route",  "coastal" : "false"},"geometry":{"type":"Point","coordinates":[62.3, 83]}},
+
+{"type":"Feature","properties":{"name":" Show earthquakes", "description":"on a specific date",  "coastal" : "false"},"geometry":{"type":"Point","coordinates":[71.0, 83]}}
+]
+}
