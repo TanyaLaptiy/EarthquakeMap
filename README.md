@@ -1,28 +1,50 @@
-# Earthquake and Air Travel Map
+The main users will be seismologists (registration is not required), the second active subject is the system itself. List of precedents:
 
-МПБ-904
-Лаптiй
+* Viewing the number of earthquakes worldwide
+* Getting information about the number of earthquakes on water
+* Getting information about the number of earthquakes on land
+* Viewing the locations on the map of all earthquakes in the world/on water/on land
+* Obtaining information about the magnitude of a selected earthquake
+* Receiving information about the magnitude of the selected earthquake
+* Receiving information about the earthquake that occurred one hour ago
+* Receiving information about which cities may be affected by the selected earthquake
+* Receiving information about which earthquakes are not far away from the selected earthquake
+* See all the cities in the world
+* Find information about the population of the selected city.
+* View all the world's airports
+* Receiving information on what flights exist at the selected airport
+* Getting information about which earthquakes, cities, and airports are in the selected country
+* View only earthquakes
+* View cities only
+* View airports only
 
-Основными пользователями будут сейсмологи (регистрация не требуется), второй действующий субъект – сама система.
-Список прецедентов:
+Objects ( entities - in DBMS terms) that the user deals with: city markers, airport markers, menu markers, water/land earthquake markers. The system compiles a list of active earthquakes, represents earthquake markers, cities, airports on the map, provides menu markers to the user.
 
-* Просмотр количества землетрясений во всем мире 
-* Получение информации о количестве землетрясений на воде
-* Получение информации о количестве землетрясений на суше
-* Просмотр местоположения на карте всех землетрясений в мире/на воде/на суше
-* Получение информации о масштабности выбранного землетрясения
-* Получение информации о магнитуде выбранного землетрясения
-* Получение информации о  том, какие землетрясения были час назад
-* Получение информации о  том, на какие города может повлиять выбранное землетрясение  
-* Получение информации о том, какие землетрясения находятся не далеко от выбранного землетрясения 
-* Просмотр всех городов в мире
-* Получение информации о популяции выбранного города 
-* Просмотр всех аэропортов мира
-* Получение информации о том, какие рейсы существуют у выбранного аэропорта
-* Получение информации о том, какие землетрясения, города, аэропорты находятся в выбранной стране
-* Просмотр только землетрясений
-* Просмотр только городов
-* Просмотр только аэропортов
+Backend:
 
-Объекты ( сущности – в терминах СУБД), с которыми имеет дело пользователь: маркеры городов, маркеры аэропортов, маркеры меню, маркеры землетрясений на воде/суше.
-Система составляет список действующих землетрясений, изображает маркеры землетрясений, городов, аэропортов на карте, предоставляет меню пользователю.
+o Logging
+
+o MyBatis
+
+o Mail
+
+o Spring framework
+
+o REST API
+
+o Junit
+
+o Maven
+
+o MySQL Workbench
+
+
+Frontend:
+
+o Swing
+
+o Java AWT Toolkit
+
+o parsing HTML
+
+o Processing
